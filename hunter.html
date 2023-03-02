@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Mouse Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+hk/b6Je9j9zDQS6U15zwIh7jKpzFfJz7xwTJv" crossorigin="anonymous">
+</head>
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    h2{
+        color:rgb(172, 86, 215);
+        font-size: 36px;
+    }
+    #instructions{
+        margin-bottom: 20px;
+        color: rgb(61, 72, 39);
+    }
+    #bushes, #penalty, #chelp{
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+        background-color:rgb(158, 205, 16);
+        color:rgb(216, 23, 158);
+        border:1px solid rgb(19, 179, 188);
+        border-radius: 10px;
+    }
+    #help{
+        margin-top: 20px;
+        border: 1px solid rgb(147, 108, 239);
+        border-radius: 10px;
+        width: 50%;
+        display: inline;
+        padding:10px;
+        background-color: rgb(238, 12, 12);
+        color: rgb(161, 27, 214);
+        text-align: left;
+    }
+    .container {
+			display: grid;
+			grid-template-columns: repeat(6, 1fr);
+			grid-template-rows: repeat(4, 1fr);
+			gap: 10px;
+			padding: 10px;
+		}
+
+		.search-location {
+			border: 1px solid rgb(15, 161, 137);
+			padding: 5px;
+		}
+    
+</style>
+<body>
+   <h2>Find the mouse by Sai Kumar Kolli </h2>
+   <p id="instructions">Click on the bushes to search for the mouse, beware the cat</p> 
+   <p  id="bushes">Number of bushes checked is zero.</p>
+   <p id="penalty">Penalty is zero.</p>
+   <p id="tap">Click for help.</p>
+   <p id="help">Help report</p>
+
+   <div class="container">
+    <div class="row">
+        <div class="search-location"><img src="bush.webp" width="100" height="100"></div>
+        <div class="search-location"><img src="bush.webp" width="100" height="100"></div>
+        <div class="search-location"><img src="bush.webp" width="100" height="100"></div>
+        <div class="search-location"><img src="bush.webp" width="100" height="100"></div>
+        <div class="search-location"><img src="bush.webp" width="100" height="100"></div>
+        <div class="search-location"><img src="bush.webp" width="100" height="100"></div>
+    </div>
+    <div class="row">
+        <div class="search-location"><img src="mouse.jpg" width="100" height="100"></div>
+        <div class="search-location"><img src="mouse.jpg" width="100" height="100"></div>
+        <div class="search-location"><img src="mouse.jpg" width="100" height="100"></div>
+        <div class="search-location"><img src="mouse.jpg" width="100" height="100"></div>
+        <div class="search-location"><img src="mouse.jpg" width="100" height="100"></div>
+        <div class="search-location"><img src="mouse.jpg" width="100" height="100"></div>
+    </div>
+    <div class="row">
+        <div class="search-location"><img src="jaguar.png" width="100" height="100"></div>
+        <div class="search-location"><img src="jaguar.png" width="100" height="100"></div>
+        <div class="search-location"><img src="jaguar.png" width="100" height="100"></div>
+        <div class="search-location"><img src="jaguar.png" width="100" height="100"></div>
+        <div class="search-location"><img src="jaguar.png" width="100" height="100"></div>
+        <div class="search-location"><img src="jaguar.png" width="100" height="100"></div>
+    </div>
+    <div class="row">
+        <div class="search-location"><img src="grass.jpg" width="100" height="100"></div>
+        <div class="search-location"><img src="grass.jpg" width="100" height="100"></div>
+        <div class="search-location"><img src="grass.jpg" width="100" height="100"></div>
+        <div class="search-location"><img src="grass.jpg" width="100" height="100"></div>
+        <div class="search-location"><img src="grass.jpg" width="100" height="100"></div>
+        <div class="search-location"><img src="grass.jpg" width="100" height="100"></div>
+    </div>
+   </div>
+
+
+   
+
+</body>
+</html>
